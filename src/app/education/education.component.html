@@ -1,0 +1,77 @@
+<button type="button" class="btn btn-warning d-print-none" data-toggle="modal" data-target="#exampleModal">
+    Add new education
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Education</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form>
+
+                    <div class="form-group">
+                        <label for="school">School/College/University</label>
+                        <input type="text" class="form-control" id="school" placeholder="Example University">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="degree">Degree</label>
+                        <input type="text" class="form-control" id="degree" placeholder="BCA">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="fieldOfStudy">Field of study</label>
+                        <input type="text" class="form-control" id="fieldOfStudy" placeholder="Computer application">
+                    </div>
+
+                    <div class="form-row">
+                        <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                            <div class="form-group">
+                                <label for="sdate">Start date</label>
+                                <input type="text" class="form-control startDate" id="sdate" placeholder="07/01/2015">
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                            <div class="form-group">
+                                <label for="edate">End date</label>
+                                <input type="text" class="form-control endDate" id="edate" placeholder="06/30/2018">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="description">Description</label>
+                        <textarea class="form-control" id="description" rows="5"></textarea>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="education-list mt-4">
+    <div class="timeline-item" date-is='July 2005 - June 2008'>
+        <h5>Aishwarya College of Education Sansthan</h5>
+        <h6 class="text-muted">BCA</h6>
+        <p>
+            Completed graduation from Makhanlal Chaturvedi Rashtriya Patrkarita Vishvidyalaya university with 75%.
+        </p>
+    </div>
+    <div class="timeline-item" date-is='July 2004 - June 2005'>
+        <h5>Adarsh Bal Mandir Sr. Sec. School</h5>
+        <h6 class="text-muted">12th</h6>
+        <p>
+            Completed Senior Secondary education from Rajasthan board with 62%.
+        </p>
+    </div>
+</div>

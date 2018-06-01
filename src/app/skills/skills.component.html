@@ -1,0 +1,73 @@
+<button type="button" class="btn btn-warning d-print-none" data-toggle="modal" data-target="#exampleModal">
+    Add new skill
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Skill</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form>
+
+                    <div class="form-group">
+                        <label for="skill">Skill</label>
+                        <input type="text" class="form-control" id="skill" placeholder="Business Development">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="level">Level</label>
+                        <select id="level" class="form-control">
+                            <option selected>Choose...</option>
+                            <option>...</option>
+                        </select>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="skills-list mt-4">
+    <ul class="list-group">
+        <li class="list-group-item">
+            AngularJS
+            <div class="progress align-middle" style="height: 3px;">
+                <div class="progress-bar bg-info" role="progressbar" style="width: 80%;" aria-valuenow="4" aria-valuemin="0" aria-valuemax="5"></div>
+            </div>
+        </li>
+        <li class="list-group-item">
+            ReactJS
+            <div class="progress align-middle" style="height: 3px;">
+                <div class="progress-bar bg-info" role="progressbar" style="width: 90%;" aria-valuenow="4" aria-valuemin="0" aria-valuemax="5"></div>
+            </div>
+        </li>
+        <li class="list-group-item">
+            HTML5
+            <div class="progress align-middle" style="height: 3px;">
+                <div class="progress-bar bg-info" role="progressbar" style="width: 80%;" aria-valuenow="4" aria-valuemin="0" aria-valuemax="5"></div>
+            </div>
+        </li>
+        <li class="list-group-item">
+            Boostrap
+            <div class="progress align-middle" style="height: 3px;">
+                <div class="progress-bar bg-info" role="progressbar" style="width: 70%;" aria-valuenow="4" aria-valuemin="0" aria-valuemax="5"></div>
+            </div>
+        </li>
+        <li class="list-group-item">
+            CSS3
+            <div class="progress align-middle" style="height: 3px;">
+                <div class="progress-bar bg-info" role="progressbar" style="width: 80%;" aria-valuenow="4" aria-valuemin="0" aria-valuemax="5"></div>
+            </div>
+        </li>
+    </ul>
+</div>
